@@ -4,31 +4,34 @@
 }
 
 body {
-	background-color: yellow;
+	background-color: lightyellow;
+}
+
+h2 {
+	font-family: "cooper";
+	font-size: 25px;
+	color: lightblue;
+	margin: auto;
+	text-align: center;
+	line-height: 30px;
 }
 
 a {
 	font-family: "cooper";
-	color: darkblue;
-}
-
-p {
-	font-family: "cooper";
-	font-size: 12px;
-	color: darkblue;
-	margin: auto;
-	text-align: center;
+	color: lightblue;
 }
 
 .green {
-	width: 70px;
+	font-family: "cooper";
+	width: 500px;
 	height: 600px;
 	margin: auto;
+	align-content: center;
 }
 
 .green {
-	background-color: lightblue;
-	margin: auto;
+	background-color: black;
+	margin-left: 150px;
 }
 
 .space-around {
@@ -42,4 +45,33 @@ p {
 	flex-wrap: wrap;
 	flex-direction: row;
 	margin: auto;
+}
+
+.flex {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.cube {
+	margin: 20px auto;
+	width: 50vw;
+	height: 50vw;
+	background-color: lightpink;
+}
+
+@media (min-width: 700px) and (max-width: 1024px) {
+	p {
+		font-size: 40px;
+	}
+	.flex {
+	flex-wrap: wrap;
+	justify-content: space-between;
+	flex-direction: row;
+	}
+
+	.cube {
+	width: 100px;
+	height: 100px;
+	}
 }

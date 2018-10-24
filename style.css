@@ -4,14 +4,14 @@
 }
 
 body {
-	background-color: lightyellow;
+	background-color: pink;
 	margin: 30;
 }
 
 h1 {
 	font-family: "cooper";
 	font-size: 20px;
-	color: navy;
+	color: pink;
 	margin: 20px;
 	text-align: center;
 	line-height: 30px;
@@ -28,7 +28,7 @@ h2 {
 
 a {
 	font-family: "cooper";
-	color: navy;
+	color: pink;
 }
 
 
@@ -49,17 +49,30 @@ a {
 	margin: 60px auto;
 	width: 200px;
 	height: 860px;
-	background-color: pink;
+	background-color: navy;
 	align-content: center;
 }
 
 @media (min-width: 700px) {
 	h1 {
 		font-size: 40px;
+		color: navy;
 	}
+
 	h2 {
 		font-size: 16px;
+		color: lightyellow;
 	}
+a {
+	font-family: "cooper";
+	color: navy;
+}
+
+body {
+	background-color: navy;
+	margin: 30;
+}
+
 	.flex {
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -69,5 +82,6 @@ a {
 	.green {
 	width: 500px;
 	height: 820px;
+	background-color: pink;
 	}
 }

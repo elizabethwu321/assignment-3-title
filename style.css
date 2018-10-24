@@ -1,0 +1,45 @@
+@font-face {
+	font-family: "cooper";
+	src: url("fonts/CooperHewitt-Heavy.woff2") format("woff2");
+}
+
+body {
+	background-color: yellow;
+}
+
+a {
+	font-family: "cooper";
+	color: darkblue;
+}
+
+p {
+	font-family: "cooper";
+	font-size: 12px;
+	color: darkblue;
+	margin: auto;
+	text-align: center;
+}
+
+.green {
+	width: 70px;
+	height: 600px;
+	margin: auto;
+}
+
+.green {
+	background-color: lightblue;
+	margin: auto;
+}
+
+.space-around {
+	justify-content: ;
+	margin: auto;
+}
+
+.flex-vertical {
+	display: flex;
+	height: 600px;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin: auto;
+}

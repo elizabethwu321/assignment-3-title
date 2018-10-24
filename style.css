@@ -48,7 +48,7 @@ a {
 	font-family: "cooper"
 	margin: 60px auto;
 	width: 200px;
-	height: 800px;
+	height: 860px;
 	background-color: pink;
 	align-content: center;
 }
@@ -68,6 +68,6 @@ a {
 
 	.green {
 	width: 500px;
-	height: 800px;
+	height: 820px;
 	}
 }

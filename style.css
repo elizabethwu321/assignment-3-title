@@ -8,6 +8,15 @@ body {
 	margin: 30;
 }
 
+h1 {
+	font-family: "cooper";
+	font-size: 20px;
+	color: navy;
+	margin: 20px;
+	text-align: center;
+	line-height: 30px;
+}
+
 h2 {
 	font-family: "cooper";
 	font-size: 30px;
@@ -45,6 +54,9 @@ a {
 }
 
 @media (min-width: 700px) {
+	h1 {
+		font-size: 40px;
+	}
 	h2 {
 		font-size: 16px;
 	}
